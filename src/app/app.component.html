@@ -1,1 +1,20 @@
-<h2>Hello ALLEGRO</h2>
+<div class="example-wrapper">
+  <h2>Hello ALLEGRO</h2>
+
+  <ng-container *ngIf="persons$|async let persons">
+    <div *ngFor="let person of persons">
+      <form>
+        <mat-form-field>
+          <input matInput placeholder="ID" [value]="person.id" [readonly]="true">
+        </mat-form-field>
+        <mat-form-field>
+          <input matInput placeholder="Name" [value]="person.name" [readonly]="true">
+        </mat-form-field>
+      </form>
+    </div>
+  </ng-container>
+
+  <div class="button-row">
+    <button mat-raised-button (click)="onRefreshClick()">Refresh</button>
+  </div>
+</div>

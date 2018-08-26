@@ -1,8 +1,10 @@
 {
   "persons": [
-    { "id": 1, "name": "Otto", "lastname": "Schmidt"},
-    { "id": 2, "name": "Peter", "lastname": "Schmidt"},
-    { "id": 3, "name": "Susi", "lastname": "Ingelberg"},
-    { "id": 4, "name": "Beate", "lastname": "Meier"}
+    { "id": 1, "name": "Otto"},
+    { "id": 2, "name": "Peter"},
+    { "id": 3, "name": "Susi"},
+    { "id": 4, "name": "Beate"},
+    { "id": 5, "name": "Sebastian"},
+    { "id": 6, "name": "Sören"}
   ]
 }
